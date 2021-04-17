@@ -22,7 +22,7 @@ nav{
   width: 100%; 
   background-color:white;
   box-shadow: 0 5px 10px 0px rgb(0, 0, 0);
-  font-size:17px;
+  font-size:15px;
   z-index:1000;
 }
   nav ul{
@@ -97,8 +97,7 @@ h1{
 
 .parallax{
   background-image: url("./media/adobe.png");
-
-  min-height: 500px; 
+  min-height: 750px; 
   margin-left:0%;
   margin-right:0%;
   background-attachment: fixed;
@@ -143,7 +142,7 @@ background-color:rgb(255, 255, 255);
   letter-spacing: 10px;
   font-family: "Lato";
   box-shadow: 0 3px 10px -2px rgb(0, 0, 0);
-  border-radius:20px;
+  border-radius:10px;
 }
 
 a:link.button, a:visited.button{
@@ -155,8 +154,17 @@ a:link.button, a:visited.button{
   text-decoration: none;
   display: inline-block;
   border-radius:5px;
+  border-color:black;
   box-shadow: 0 3px 10px -2px rgb(0, 0, 0);
 }
 a:hover.button, a:active.button {
   background: rgb(0, 0, 0);
+}
+.imgShadow{
+  border-color:black;
+  box-shadow: 0 3px 10px -2px rgb(0, 0, 0);
+}
+div.box{
+  border-color:black;
+  box-shadow: 0 3px 10px -2px rgb(0, 0, 0);
 }
